@@ -139,3 +139,44 @@ OBS: Ao executar um merge, caso as branchs tenham mudanças em lugares distintos
 Arquivo '.gitignore': Faz com que todos os arquivos que estão listados dentro dele sejam ignorados pelo git ao realizar adições ou commits.
 
 FORK: Cópia do projeto original onde poderão ser feitas alterações sem afetar o original.
+
+## Soft Skills
+
+### Inteligência Emocional
+
+Pilares da inteligência emocional:
+
+- Autoconsciência;
+- Autogestão;
+- Empatia;
+- Habilidades sociais,
+
+Fica a pergunta: Quais são os pontos que afetam a sua inteligência emocional hoje?
+
+### Aprender a Aprender
+
+Metáfora:
+
+> O dorso e a pata de um cavalo, enquanto a cabeça e o dorso são a mente e a alma humana
+
+Aprender é diferente de receber conteúdo. Aprendizado é a explicitação do conhecimento através de uma performance melhorada.
+
+O aprendizado é fruto da experimentação.
+
+Quanto mais gente tiver contato com a tecnologia melhor o mundo. Caso contrário o mundo será feito apenas para as pessaos que sabem desfrutar dele.
+
+Livro sobre o assunto:
+
+- Doutorado Informal - Alex Bretas
+- Como aprendemos
+- Vai Lá e Faz - Tiago Mattos
+
+<img src="https://media-exp1.licdn.com/dms/image/C4D12AQGLGdW7uPjSwA/article-inline_image-shrink_1000_1488/0/1522519027914?e=1630540800&v=beta&t=KDX79nWbw2AS30JTZ2-dQ1gu5y3swXU_jEujLyAAHjY" alt="pirâmide com diferentes níveis de conhecimento">
+
+Passos para começar a aprender:
+
+1. Decida aprender
+2. Descubra suas formas;
+3. Suspenda certezas;
+4. Ouse saber por si;
+5. Seja mais humilde
