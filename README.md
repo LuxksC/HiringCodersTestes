@@ -140,6 +140,18 @@ Arquivo '.gitignore': Faz com que todos os arquivos que estão listados dentro d
 
 FORK: Cópia do projeto original onde poderão ser feitas alterações sem afetar o original.
 
+## CSS
+
+Perguntas:
+- Em CSS, qual propriedade é usada para adicionar espaço dentro do campo de texto ?
+- Qual dos seguintes elementos é usado pela propriedade de filtro para desfocar as imagens?
+
+## Dados
+
+Perguntas:
+- Quando falamos em Tipos Abstratos de Dados, nos referimos a:
+- Uma PILHA é uma estrutura de Dados que trabalha na forma:
+
 ## Soft Skills
 
 ### Inteligência Emocional
@@ -180,3 +192,31 @@ Passos para começar a aprender:
 3. Suspenda certezas;
 4. Ouse saber por si;
 5. Seja mais humilde
+
+### Vocação
+
+> Pergunte a si mesmo onde aprendeu a associar "errado" ou "anormal" a fazer coisas diversas
+
+Pessoas como você existem e ainda sendo dessa forma elas tem sucessona vida.
+
+> E se você não funcionar desse jeito?
+
+Não há espaço para você nessa cultura mas isso não significa que você está errado.
+
+Multipotentialite Super Powers
+
+1. Síntese de ideias;
+2. Rapid Learning;
+3. Adaptabilidade.
+
+Essas 3 habilidades podem ser perdidas se você for forçado a focar em apenas uma coisa.
+
+### Processo de aprendizagem
+
+> Se o seu ritmo de aprendizagem for igual ou inferior ao ritmo de mudança do mundo, você está involuindo.
+
+Estratégia para acompanhar o mundo:
+
+1. Eleger curadores, fontes que classifiquem a informação para você
+2. Desenvolver habilidades para o cinto do batman
+3. Se tornar um aprendedor autodidata.
