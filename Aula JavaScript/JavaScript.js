@@ -36,17 +36,17 @@ function sum(a,b) {
 
 var userName = "Ana"
 //IF/Else/ElseIF
-if (userName === "Lucas") {
+/*if (userName === "Lucas") {
     console.log("Bem-vindo Lucas")
 } else if (userName === "Luxks"){
     console.log("Olá Luxks, você está radiante hoje")
 } else {
     console.log("Alerta de intruso, chamando a polícia")
-}
+}*/
 
 var password = 123
 //Switch
-switch (password) {
+/*switch (password) {
     case "senha":   
         console.log("Senha correta, aproveite");
         break;
@@ -55,4 +55,35 @@ switch (password) {
         break;
     default:
         console.log("Você está preso ordinário")
-}
+}*/
+
+var years = [2021, 2022, 2023, 2024, 2025, 2026];
+//for
+/*for (var i = 0; i < years.length; i++){
+    if (years[i]%2==0){
+        console.log("ano par:" + years[i])
+    } else{
+        console.log("ano impar:" + years[i])
+    }
+}*/
+
+
+var i = 0;
+//WHILE
+/*while (i < years.length){
+    if (years[i]%2==0){
+        console.log("ano par:" + years[i])
+    } else{
+        console.log("ano impar:" + years[i])
+    }
+    ++i 
+}*/
+
+do{
+    if (years[i]%2==0){
+        console.log("índice com ano par:" + i);
+    } else{
+        console.log("índice com ano ímpar:" + i);
+    }
+    i++
+} while(i < years.length);

@@ -236,6 +236,7 @@ Aplicações que utilizam JavaScript
 
 Comandos básicos:
 - `console.log("Texto")`--> Irá printar no console do site o Texto inserido ou valor da variável inserida.
+- `[nome do array].length` --> equivalente a quantidade de elementos de um array
 
 ### Declaração de variáveis
 
@@ -309,6 +310,24 @@ Tipos de operadores condicionais:
   - Default define o que vai ser executa caso nenhum dos Cases seja atendido.
 
 Exemplos de código no arquivo referente a essa aula.
+
+### Repetição
+
+Normalmente é usado junto com arrays.
+
+Tipos de comandos para repetição:
+- FOR
+  - Recebe 3 parâmetros: variável a ser interada e seu valor inicial, condição de término da repetição e a forma como a variável será incrementada;
+  - Dentro do FOR deve ser inserido o comando a ser repetido;
+  - Exemplo no código
+- WHILE
+  - Recebe como parâmetro apenas a condição de encerramento da repetição
+  - O valor inicial da variável a ser interada geralmente é definido fora do WHILE e o incremento é definido dentro do WHILE e ao final do comando
+- DO/WHILE
+  -Similar ao While, porém a condição só será verificada ao final da execução do código
+  - Nesse caso o DO não recebe parâmetro, apenas o WHILE.
+
+  
 
 
 ## Soft Skills
