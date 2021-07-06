@@ -14,3 +14,18 @@ const year = 1998;
 //console.log(myAge);//
 //console.log(myName);//
 
+//Declarando uma variável do tipo objeto
+var person1 = {
+    "name": "Lucas",
+    "age": 22
+}
+
+//Declarando um Array
+var personArray = [ "Lucas", "Simara", "Genyfer"];
+//console.log(personArray+"Ana")
+
+//Declarando uma função
+function sum(a,b) {
+    return a + b
+}
+//console.log(sum(2,3));

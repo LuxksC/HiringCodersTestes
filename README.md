@@ -266,6 +266,30 @@ O que não fazer:
 - Usar espaço ou acentos no nome da variável;
 - Usar alguma palavra reservada do JavaScript.
 
+### Tipos de dados
+
+No JS os dados são dinamicamente tipados, seu tipo pode mudar conforme a necessidade.
+
+Tipos de dados:
+- String
+- Number
+- Float
+- Primitivos (null(vazio), undefined);
+- Boolean (true/false)
+- Objeto (variável com mais de um valor atribuído)
+- Array
+- Function (similar a um objeto, porém com o poder de ser executada ao ser chamada)
+
+Temos alguns exemplos em Aula JavaScript/JavaScript.js.
+
+Operador `typeof`: Dá como resultado o tipo de uma variável.
+
+Exemplo: 
+```
+var age = 32
+console.log(typeof age)
+```
+
 
 
 ## Soft Skills
