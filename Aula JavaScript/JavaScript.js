@@ -29,3 +29,30 @@ function sum(a,b) {
     return a + b
 }
 //console.log(sum(2,3));
+
+//Usando condicionais
+
+
+
+var userName = "Ana"
+//IF/Else/ElseIF
+if (userName === "Lucas") {
+    console.log("Bem-vindo Lucas")
+} else if (userName === "Luxks"){
+    console.log("Olá Luxks, você está radiante hoje")
+} else {
+    console.log("Alerta de intruso, chamando a polícia")
+}
+
+var password = 123
+//Switch
+switch (password) {
+    case "senha":   
+        console.log("Senha correta, aproveite");
+        break;
+    case 123:
+        console.log("Melhore sua senha, ainda assim bora!");
+        break;
+    default:
+        console.log("Você está preso ordinário")
+}

@@ -299,7 +299,16 @@ Tipos de operadores:
 - **Comparação**: == (compara valor), === (compara valor e tipo), != (diferente de), <, <=, >, >=
 - **Lógicos**: e(&&), ou(//), !(negação)
 
+### Condicionais
 
+Tipos de operadores condicionais:
+- If/Else if/ Else (podem ser usados quantos else if você desejar)
+- Switch/Case/Default (usado no lugar de vários else if)
+  - Nesse caso, precisamos utilizar o comando break para parar o bloco de código caso ele seja atendido. Caso isso não seja feito, ele irá executar o comando no case e no default.
+  - Aqui a comparação é do tipo ===, ou seja, se compara o tipo e o valor.
+  - Default define o que vai ser executa caso nenhum dos Cases seja atendido.
+
+Exemplos de código no arquivo referente a essa aula.
 
 
 ## Soft Skills
