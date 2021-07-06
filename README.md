@@ -146,11 +146,120 @@ Perguntas:
 - Em CSS, qual propriedade é usada para adicionar espaço dentro do campo de texto ?
 - Qual dos seguintes elementos é usado pela propriedade de filtro para desfocar as imagens?
 
+**TAG `<style>`**
+
+- É utilizada para inserir o código CSS e outras referências de estilização dentro do HTML;
+- Ela deve ser inserida dentro da TAG `<head>`;
+- Dentro dessa tag será escrito o código CSS que deve ser usado no projeto.
+- Exemplo:
+   ```
+    <head>
+      <style>
+        div {
+          border: solid 2px red;
+        }
+      </style>
+    </head>
+
+    <body>
+      <div>Olá Mundo!</div>
+    </body>
+  ```
+  - Para ficar mais organizado, não irei utilzar o CSS dessa forma nos projeto. Usaremos a tag link, para referenciar um arquvio CSS criado dentro da pasta do projeto.
+  - Exemplo:
+    `<link rel="stylesheet" href="style.css" />` ou 
+    `<link rel="stylesheet" href="[nome do arquivo CSS].css" />`
+  - Esse comando pode ser inserido com o Emmet digitando `link:css`
+
+
 ## Dados
 
 Perguntas:
 - Quando falamos em Tipos Abstratos de Dados, nos referimos a:
 - Uma PILHA é uma estrutura de Dados que trabalha na forma:
+
+### Estrutura de dados clássicas
+
+Preocupação: Maneira como os dados são armazenados. São compostas por:
+- Pilhas
+- Listas
+- Filas
+
+Independente do que utilizamos, sempre vamos trabalhar com conjuntos, que podem ser classificados entre vetores ou arrays:
+-  Representam uma variável ligada a uma séria de valores;
+- Podemos fazer a associação com um armário com diversas caixas e para nos referirmos a uma caixa devemos especificar qual é o armário e qual o número da caixa;
+
+Filas e pilhas costumam trabalhar com tamanhos limitados para facilitar a implementação, listas trabalham com conjuntos de tamanho infinito. Filas e pilhas são implementadas através de listas.
+
+Tipos de dados abstratos:
+- Pilha
+
+**PILHAS**
+
+Conceito está relacionado ao empilhamento de valores. Novos valores são adicionados na última posição. Caso seja necessário retirar valores eles serão retirados na ordem inversa que foram inseridos.
+
+Para inserir novos elementos usamos o comando de PUSH e para retirar usamos o comando de POP.
+
+Forma de declarar uma pilha em JS:
+...
+var elementos = [];
+var topo =
+...
+
+**FILAS**
+
+Tem o mesmo princípio de funcionamento das pilhas, porém aqui ao se adicionar um elemento, ele irá entrar no final e ao se retirar um elemento, iremos retirar do começo.
+
+**LISTAS**
+
+O critério de inserção e remoção de elementos funciona com base em decisões tomadas pelo usuário.
+
+### Estruturas para classificação e recuperação de informação
+
+Preocupação: Aquisição de dados de forma rápida. 
+
+Para isso são usados algoritmos e busca e classificação:
+- Busca sequencial;
+- Busca binária;
+- Algoritmo da bolha;
+- Inserção;
+- Seleção;
+
+## JavaScript I
+
+Podemos usar a ferramenta DevTools (F12) para fazer experimentações em sites já criados.
+
+Aplicações que utilizam JavaScript
+- Apps Mobile (React Native);
+- Games;
+- Robótica...
+
+Comandos básicos:
+- `console.log("Texto")`--> Irá printar no console do site o Texto inserido ou valor da variável inserida.
+
+### Declaração de variáveis
+
+Estrutura:
+1. `var nomeVariável = [valor];`
+2. `let nomeVariável = [valor];`
+3. `const nomeVariável = [valor]`
+
+Diferença entre as estruturas:
+<br>
+<img src="assets/images/VarLetConst.png" alt="Tabela de diferenças entre as formas de declarar variáveis no Javascript.">
+<br>
+
+Recomendações:
+- Usar o ; no final de uma linha, apesar de não ser obrigatório;
+- declarar o nome da variável com inicio em letra minúscula e segunda palavra com letra maiúscula;
+- Escolher um nome que faça sentido para o uso da variável
+
+O que não fazer:
+- Usar número do começo do nome da variável;
+- Usar espaço ou acentos no nome da variável;
+- Usar alguma palavra reservada do JavaScript.
+
+
 
 ## Soft Skills
 
@@ -182,9 +291,9 @@ Livro sobre o assunto:
 - Doutorado Informal - Alex Bretas
 - Como aprendemos
 - Vai Lá e Faz - Tiago Mattos
-
+<br>
 <img src="https://media-exp1.licdn.com/dms/image/C4D12AQGLGdW7uPjSwA/article-inline_image-shrink_1000_1488/0/1522519027914?e=1630540800&v=beta&t=KDX79nWbw2AS30JTZ2-dQ1gu5y3swXU_jEujLyAAHjY" alt="pirâmide com diferentes níveis de conhecimento">
-
+<br>
 Passos para começar a aprender:
 
 1. Decida aprender
