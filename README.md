@@ -324,7 +324,7 @@ Tipos de comandos para repetição:
   - Recebe como parâmetro apenas a condição de encerramento da repetição
   - O valor inicial da variável a ser interada geralmente é definido fora do WHILE e o incremento é definido dentro do WHILE e ao final do comando
 - DO/WHILE
-  -Similar ao While, porém a condição só será verificada ao final da execução do código
+  - Similar ao While, porém a condição só será verificada ao final da execução do código
   - Nesse caso o DO não recebe parâmetro, apenas o WHILE.
 
 ### Funções
