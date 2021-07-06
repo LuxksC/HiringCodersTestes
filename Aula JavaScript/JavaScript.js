@@ -97,3 +97,56 @@ function introduction (firstName, lastName){
 //introduction('Ana', "Clara")
 
 //CLASSES
+//Criação de uma classe pai
+/*class Games {
+    //constructor representa um objeto pertencente a nossa classe
+    constructor(title, company, lauchingYear) {
+        this.title = title; //(this) --> usado na declaração de uma variável que pertence a classe
+        this.company = company;
+        this.year = lauchingYear;
+    }
+
+    play(){
+        return `Estou jogando ${this.title}, criado pela empresa ${this.company} no ano de ${this.year}`;
+    }
+}
+
+let game = new Games(`Horizon Zero Dawn`,`Guerrilla`, `2012`);
+
+console.log(game);
+console.log(game.play());*/
+
+//criação de uma classe filha que herda os atributos da classe pai
+/*class apocalipseGames extends Games{
+    constructor(title, company, lauchingYear, typeOfApocalipse) {
+        super(title, company, lauchingYear); // importação das variáveis da classe pai
+        this.typeOfApocalipse = typeOfApocalipse;
+
+    }
+    playApocalipse(){
+        return `Estou jogando ${this.title}, criado pela empresa ${this.company} no ano de ${this.year} que envolve um tipo de apocalipse ligado a ${this.typeOfApocalipse}`
+    }
+}
+
+let game02 = new apocalipseGames(`God of War`, `Santa Monica`, 1998, `Deuses`);
+
+console.log(game02.playApocalipse());*/
+
+class variaveisOcultas{
+    constructor(name) {
+        this._name = name
+    }
+    
+    get name(){
+        return this._name
+    }
+
+    set name(value){
+        this._name = value
+    }
+
+}
+
+let person = new variaveisOcultas(`Lucas`)
+person.name = `Luxks`
+console.log(person.name)
