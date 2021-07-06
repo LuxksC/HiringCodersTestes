@@ -290,6 +290,16 @@ var age = 32
 console.log(typeof age)
 ```
 
+### Operadores
+
+Tipos de operadores:
+- **Aritiméticos**: +, -, *, /, %(resto), ++(incremento), --(decremento)
+- **Atribuição**: =, +=, -=, *=, /=
+  - x+=y <---> x=x+y
+- **Comparação**: == (compara valor), === (compara valor e tipo), != (diferente de), <, <=, >, >=
+- **Lógicos**: e(&&), ou(//), !(negação)
+
+
 
 
 ## Soft Skills
