@@ -327,7 +327,29 @@ Tipos de comandos para repetição:
   -Similar ao While, porém a condição só será verificada ao final da execução do código
   - Nesse caso o DO não recebe parâmetro, apenas o WHILE.
 
-  
+### Funções
+Escrita:
+```
+function [nome da função]([argumentos]){
+    [comando a ser realizado];
+}
+```
+
+Para que uma função seja executada, é necessário chamar ela.
+
+Obs: É possível chamar funções dentro de funções.
+
+### Classes
+
+No JavaScript conseguimos criar classes, que são pedaços de código com atributos e funções que serão reaproveitados.
+
+Após definir uma classe pai, podemos definir uma classe filha que herda os atributos e funções da classe pai sem precisarmos redefiní-los.
+
+Além disso, dentro da classe, podemos estabelecer variáveis "ocultas" que só serão vistas ao chamar a variável se utilizarmos o método get.
+
+Ainda sobre essas variáveis, podemos estabelecer um método do tipo set para alterar o valor da variável.
+
+Exemplos desses casos no código.
 
 
 ## Soft Skills

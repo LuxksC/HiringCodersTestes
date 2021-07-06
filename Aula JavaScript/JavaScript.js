@@ -79,11 +79,21 @@ var i = 0;
     ++i 
 }*/
 
-do{
+//DO
+/*do{
     if (years[i]%2==0){
         console.log("índice com ano par:" + i);
     } else{
         console.log("índice com ano ímpar:" + i);
     }
     i++
-} while(i < years.length);
+} while(i < years.length);*/
+
+//FUNCTION
+function introduction (firstName, lastName){
+    console.log('Hello ' + firstName + ' ' + lastName)
+}
+
+//introduction('Ana', "Clara")
+
+//CLASSES
