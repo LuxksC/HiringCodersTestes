@@ -241,13 +241,20 @@ Comandos básicos:
 
 Estrutura:
 1. `var nomeVariável = [valor];`
+  - Declarações de escopo global ou de funções;
+  - Deixam o código mais vulnerável;
 2. `let nomeVariável = [valor];`
+  - Escopo Bloqueado;
 3. `const nomeVariável = [valor]`
+  - Escopo bloqueado;
+  - Não podem ser atualizadas e nem reatribuidas;
+  - Precisa ser inicializada durante a declaração (precisa ser atribuído um valor a ela ao se criar a variável);
 
 Diferença entre as estruturas:
 <br>
 <img src="assets/images/VarLetConst.png" alt="Tabela de diferenças entre as formas de declarar variáveis no Javascript.">
 <br>
+
 
 Recomendações:
 - Usar o ; no final de uma linha, apesar de não ser obrigatório;
